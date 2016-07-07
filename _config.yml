@@ -1,6 +1,6 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Nickollas Coelho
+bio: Software Developer & DevOps at Beck et al. Services
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -10,8 +10,7 @@ description: A blog about technology and stuff related
 external-image: false
 picture: assets/images/profile.jpg
 
-url: http://koppl.in/indigo
-# your url: http://USERNAME.github.io
+url: https://nickollascoelho.com.br
 
 permalink: /:title/
 
@@ -26,35 +25,29 @@ highlighter: rouge
 # analytics-piwik-id: 1
 
 # if you don't want comments in your posts, set to false
-disqus: mydisqus
+disqus: false
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+facebook: nickollas.coelho
+twitter: nickollascoelho
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
 # linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-medium: medium
-vimeo: myvimeo
-email: myemail@gmail.com
+# youtube: myyoutube
+# spotify: myspotify
+github: nickollascoelho
+#medium: medium
+#vimeo: myvimeo
+email: nickollascoelho@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    nickollascoelho:
+        name: Nickollas Coelho
+        bio: Software Design Lover and JavaScript Enthusiast
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: nickollascoelho
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -82,7 +75,7 @@ show-tags: true
 related: true
 
 # show next & prev links in blog post?
-blog-nav-links: false
+blog-nav-links: true
 
 # show author block at the end of a post ?
 show-author: true
