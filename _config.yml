@@ -1,6 +1,6 @@
 # main text of home
 name: Nickollas Coelho
-bio: Software Developer & DevOps at Beck et al. Services
+bio: Software Engineer & DevOps <br>at <a href='https://www.bea-services.com' target='_blank'>Beck et al. Services</a>
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -17,8 +17,9 @@ permalink: /:title/
 markdown: kramdown
 highlighter: rouge
 
+
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-66429933-4'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -33,7 +34,7 @@ twitter: nickollascoelho
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: nickollascoelho
 # youtube: myyoutube
 # spotify: myspotify
 github: nickollascoelho
