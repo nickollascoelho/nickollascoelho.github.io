@@ -1,1 +1,34 @@
-Ok
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>CSV Joiner</title>
+</head>
+<body>
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">Merge two CSV files</a>
+    </div>
+</div>
+  <div class="splash-container">
+      <div class="splash">
+        <form class="pure-form pure-form-stacked">
+            <fieldset>
+              <input type="file" accept=".csv, text/plain" id="file_1" required>
+              <input type="file" accept=".csv, text/plain" id="file_2" required>
+              <input id="join_field" type="text" placeholder="Join field">
+              <input id="order_by_field" type="text" placeholder="Order by">
+              <button type="button" id="join_button" class="pure-button">Join</button>
+            </fieldset>
+        </form>
+      </div>
+  </div>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+  <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="bundle.js"></script>
+</body>
+</html>
